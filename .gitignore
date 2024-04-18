@@ -3,5 +3,5 @@
 **/pycache/
 venv/
 __pycache__/
-# migrations/versions/
+migrations/versions/
 .vscode/

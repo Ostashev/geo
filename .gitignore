@@ -1,0 +1,9 @@
+.idea
+.env
+**/pycache/
+venv/
+__pycache__/
+# migrations/versions/
+.vscode/
+#docker-compose.yml
+# docker-compose-local.yml

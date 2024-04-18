@@ -17,7 +17,7 @@ cd test_2
 docker-compose up -d
 ```
 
-4. Зайдите в контейнер с помощью команды docker exec
+<!-- 4. Зайдите в контейнер с помощью команды docker exec
 
 ```bash
 docker exec -it backend bash
@@ -28,4 +28,4 @@ docker exec -it backend bash
 ```bash
 alembic revision --autogenerate -m 'first'
 alembic upgrade head
-```
+``` -->

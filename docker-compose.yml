@@ -25,6 +25,7 @@ services:
     logging:
       options:
         max-size: 10m
+    command: ["sh", "-c", "alembic revision --autogenerate -m 'first' && alembic upgrade head && uvicorn app.main:app --host 0.0.0.0 --port 8086"]
 
 volumes:
   pg_data_production:
